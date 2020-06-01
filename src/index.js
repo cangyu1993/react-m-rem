@@ -7,7 +7,7 @@ import {BrowserRouter} from 'react-router-dom'
 import Router from './router'
 
 ReactDOM.render(
-    <BrowserRouter>
+    <BrowserRouter basename='/pwbweb'>
         <App>
             <Router/>
         </App>
