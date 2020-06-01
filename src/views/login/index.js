@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import {connect} from 'react-redux'
 import actionCreators from '../../store/actions'
 import {bindActionCreators} from 'redux'
+import {Flex, Button} from 'antd-mobile'
+import './index.scss'
 
 class login extends Component {
     constructor(props) {
@@ -20,10 +22,16 @@ class login extends Component {
 
     render() {
         return (
-            <div>
-                loginPages + {this.props.showNum}
-                <button onClick={this.showNumAdd}>增加</button>
-                <button onClick={this.showNumReduce}>减少</button>
+            <div className='widthPage'>
+                <p className='showNumber'>{this.props.showNum}</p>
+                <Flex>
+                    <Flex.Item>
+                        <Button type="primary" onClick={this.showNumAdd}>+1</Button>
+                    </Flex.Item>
+                    <Flex.Item>
+                        <Button type="warning" onClick={this.showNumReduce}>-1</Button>
+                    </Flex.Item>
+                </Flex>
             </div>
         )
     }

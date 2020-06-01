@@ -1,16 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta name="description" content="666" />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+<head>
+    <meta charset="utf-8"/>
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico"/>
+    <meta content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport"/>
+    <meta name="theme-color" content="#000000"/>
+    <meta name="description" content="666"/>
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png"/>
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json"/>
     <title>福建农信</title>
-  </head>
-  <body>
-    <div id="root"></div>
-  </body>
+</head>
+<body>
+<div id="root"></div>
+</body>
+<script>
+    //窗口变化再次执行转换操作
+    window.onresize = function () {
+        resizeWindow()
+    }
+
+    function resizeWindow() {
+        let deviceWidth = document.documentElement.clientWidth;
+        let rootRem = deviceWidth / 7.5 + 'px'
+        document.documentElement.style.fontSize = rootRem
+        // console.log(deviceWidth)
+        // console.log(rootRem)
+    }
+
+    resizeWindow()
+</script>
 </html>
