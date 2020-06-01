@@ -1,7 +1,13 @@
 import React, {Component} from 'react';
 import {Switch, Route} from "react-router-dom";
+import Loadable from 'react-loadable'
 
-import login from '../views/login'
+const login = Loadable({
+    loader: () => import('../views/login'),
+    loading() {
+        return <div>Loading...</div>
+    }
+})
 
 
 class Router extends Component {
