@@ -4,9 +4,7 @@ import Loadable from 'react-loadable'
 
 const login = Loadable({
     loader: () => import('../views/login'),
-    loading() {
-        return <div>Loading...</div>
-    }
+    loading: () => <div style={{textAlign: "center"}}>Loading...</div>
 })
 
 
