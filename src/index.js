@@ -1,16 +1,20 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import * as serviceWorker from './serviceWorker'
 import {BrowserRouter} from 'react-router-dom'
 import Router from './router'
+import {Provider} from 'react-redux'
+import {PersistGate} from 'redux-persist/lib/integration/react'
+import configStore from './store'
+import {persistor} from './store'
 
 ReactDOM.render(
     <BrowserRouter basename='/pwbweb'>
-        <App>
-            <Router/>
-        </App>
+        <Provider store={configStore}>
+            <PersistGate loading={null} persistor={persistor}>
+                <Router/>
+            </PersistGate>
+        </Provider>
     </BrowserRouter>, document.getElementById('root')
 );
 
