@@ -1,10 +1,8 @@
 .widthPage {
+  display: block;
   width: 750px;
-  .showNumber {
-    margin: 0 0 50px 0;
-    text-align: center;
-    height: 80px;
-    background-color: palegoldenrod;
-    line-height: 80px;
-  }
+  height: 100vh;
+  background-image: url(../../assect/young.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-
+import './App.css'
 import * as serviceWorker from './serviceWorker'
 import {BrowserRouter} from 'react-router-dom'
 import Router from './router'
@@ -10,7 +10,7 @@ import configStore from './store'
 import {persistor} from './store'
 
 ReactDOM.render(
-    <BrowserRouter basename='/pwbweb'>
+    <BrowserRouter basename='/pwbweb/'>
         <Provider store={configStore}>
             <PersistGate loading={null} persistor={persistor}>
                 <Router/>
