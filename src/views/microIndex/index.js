@@ -6,11 +6,13 @@ class microIndex extends Component {
         super(props)
     }
 
-    state = {};
+    state = {
+        title: 'microIndexPage'
+    };
 
     render() {
         return (
-            <div>microIndexPage</div>
+            <div>{this.state.title}</div>
         )
     }
 }

@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1d2e82e-36b2-4300-85db-c1a2110d6e3b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assect/young.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/loading/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/microIndex/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/login/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/login/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/login/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/login/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/microIndex/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/microIndex/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,13 +18,15 @@
     <session id="-851403031">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="4" />
           <entry key="project.open.time.5" value="3" />
+          <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -43,7 +36,7 @@
           <entry key="gitignore" value="1" />
           <entry key="html" value="16" />
           <entry key="jpg" value="1" />
-          <entry key="js" value="111" />
+          <entry key="js" value="112" />
           <entry key="json" value="12" />
           <entry key="png" value="2" />
           <entry key="sass" value="1" />
@@ -58,7 +51,7 @@
           <entry key="HTML" value="16" />
           <entry key="Image" value="3" />
           <entry key="JSON" value="17" />
-          <entry key="JavaScript" value="111" />
+          <entry key="JavaScript" value="112" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="SCSS" value="8" />
           <entry key="SVG" value="1" />
@@ -77,10 +70,10 @@
           <entry key="babelrc" value="12" />
           <entry key="css" value="3" />
           <entry key="html" value="32" />
-          <entry key="js" value="1563" />
+          <entry key="js" value="1772" />
           <entry key="json" value="4" />
           <entry key="scss" value="101" />
-          <entry key="txt" value="46" />
+          <entry key="txt" value="50" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -88,20 +81,23 @@
           <entry key="CSS" value="3" />
           <entry key="HTML" value="32" />
           <entry key="JSON" value="16" />
-          <entry key="JavaScript" value="1563" />
-          <entry key="PLAIN_TEXT" value="46" />
+          <entry key="JavaScript" value="1772" />
+          <entry key="PLAIN_TEXT" value="50" />
           <entry key="SCSS" value="101" />
         </counts>
       </usages-collector>
     </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="micro-react" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/views/microIndex/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="186">
+              <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -177,12 +173,13 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="203" />
-    <option name="y" value="91" />
-    <option name="width" value="1323" />
-    <option name="height" value="853" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
@@ -224,7 +221,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/keLanProjects/csii.vx.fujian.microhall" />
     <property name="list.type.of.created.stylesheet" value="Sass" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -235,7 +232,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2018.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
@@ -331,7 +328,10 @@
       <workItem from="1591086517788" duration="226000" />
       <workItem from="1591086769776" duration="245000" />
       <workItem from="1591087045393" duration="195000" />
-      <workItem from="1591087273129" duration="352000" />
+      <workItem from="1591087273129" duration="702000" />
+      <workItem from="1591088021127" duration="166000" />
+      <workItem from="1591088253677" duration="296000" />
+      <workItem from="1591088586769" duration="2493000" />
     </task>
     <task id="LOCAL-00001" summary="路由懒加载">
       <created>1590998641466</created>
@@ -375,11 +375,18 @@
       <option name="project" value="LOCAL" />
       <updated>1591063869780</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="背景设置">
+      <created>1591087674171</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1591087674172</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31611000" />
+    <option name="totallyTimeSpent" value="34916000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -393,22 +400,23 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49902913" visible="true" weight="0.15389696" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49782923" visible="true" weight="0.17701453" />
+      <window_info id="Structure" order="1" sideWeight="0.50217074" side_tool="true" weight="0.15389696" />
       <window_info id="npm" order="2" sideWeight="0.5009709" side_tool="true" weight="0.22361478" />
-      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Favorites" order="3" sideWeight="0.50217074" side_tool="true" weight="0.15389696" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.45151955" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5354559" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32850942" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.47033286" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32900432" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32850942" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.3069307" />
+      <window_info anchor="bottom" id="REST Client" order="12" weight="0.70188135" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -416,6 +424,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -427,7 +445,8 @@
     <MESSAGE value="redux数据持久化" />
     <MESSAGE value="样式按需加载，移动端自动适配rem" />
     <MESSAGE value="加密解密" />
-    <option name="LAST_COMMIT_MESSAGE" value="加密解密" />
+    <MESSAGE value="背景设置" />
+    <option name="LAST_COMMIT_MESSAGE" value="背景设置" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/public/logo512.png">
@@ -629,8 +648,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/microIndex/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="186">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
         </state>
       </provider>
     </entry>
