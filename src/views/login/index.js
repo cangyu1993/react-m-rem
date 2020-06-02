@@ -4,6 +4,9 @@ import actionCreators from '../../store/actions'
 import {bindActionCreators} from 'redux'
 import {Flex, Button} from 'antd-mobile'
 import './index.scss'
+import ciphertext from '../../utils/ciphertext'
+
+const {Encrypt, Decrypt} = ciphertext
 
 class login extends Component {
     constructor(props) {
@@ -12,12 +15,12 @@ class login extends Component {
 
     state = {};
     showNumAdd = () => {
-        let num = this.props.showNum
-        this.props.action.changeShowNum(++num)
+        let data = Encrypt(this.props.showNum, '123')
+        this.props.action.changeShowNum(data)
     };
     showNumReduce = () => {
-        let num = this.props.showNum
-        this.props.action.changeShowNum(--num)
+        let data = Decrypt(this.props.showNum, '123')
+        this.props.action.changeShowNum(data)
     }
 
     render() {

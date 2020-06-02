@@ -1,5 +1,5 @@
 const initialState = {
-    showNum: 0
+    showNum: 998
 }  //初始状态
 
 export default (state = initialState, action) => {
