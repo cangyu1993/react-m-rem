@@ -3,6 +3,7 @@ import {connect} from 'react-redux'
 import actionCreators from '../../store/actions'
 import {bindActionCreators} from 'redux'
 import {Link} from 'react-router-dom'
+import axios from '../../axios'
 import './index.scss'
 
 class login extends Component {
@@ -11,6 +12,16 @@ class login extends Component {
     }
 
     state = {};
+    componentDidMount = () => {
+        this.getIsCheck()
+    }
+    getIsCheck = () => {
+        axios.post('/IsCheckatMger.do').then(res => {
+            console.log(res)
+        }).catch(err => {
+            console.log(err)
+        })
+    }
 
     render() {
         return (
@@ -21,7 +32,7 @@ class login extends Component {
 
 export default connect(
     (state) => ({
-        showNum: state.showNum
+        token: state.token
     }),
     (dispath) => ({
         action: bindActionCreators(actionCreators, dispath)

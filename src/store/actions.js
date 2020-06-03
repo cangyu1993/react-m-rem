@@ -1,8 +1,8 @@
 export default {
-    changeShowNum(num) {
+    saveToken(token) {
         return {
-            type: 'CHANGE_SHOW_NUM',
-            num,
+            type: 'SAVE_TOKEN',
+            token,
         }
     }
 }  //action就是带返回值的函数
