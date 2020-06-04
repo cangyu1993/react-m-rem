@@ -39,6 +39,7 @@ instance.interceptors.request.use(config => {
     let {token} = store.getState()
     if (token) {
         config.data = qs.stringify({...config.data, key: token})
+        config.headers.token = token
     } else {
         config.data = qs.stringify(config.data)
     }
