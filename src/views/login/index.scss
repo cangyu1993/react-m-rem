@@ -1,8 +1,42 @@
+@mixin centerX-flexY{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .widthPage {
-  display: block;
   width: 750px;
   height: 100vh;
-  background-image: url(../../assect/young.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  overflow: hidden;
+  background-color: #304F50;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  .positionBox {
+    width: 600px;
+    min-height: 750px;
+    box-sizing: border-box;
+    background-color: #008B8C;
+    position: relative;
+    border-radius: 50px;
+    margin-top: 220px;
+    .register {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+    }
+  }
+}
+
+@font-face {
+  font-family: 'webfont';
+  font-display: swap;
+  src: url('//at.alicdn.com/t/webfont_2ibqi0epidg.eot'); /* IE9*/
+  src: url('//at.alicdn.com/t/webfont_2ibqi0epidg.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//at.alicdn.com/t/webfont_2ibqi0epidg.woff2') format('woff2'),
+  url('//at.alicdn.com/t/webfont_2ibqi0epidg.woff') format('woff'), /* chrome、firefox */
+  url('//at.alicdn.com/t/webfont_2ibqi0epidg.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('//at.alicdn.com/t/webfont_2ibqi0epidg.svg#AlibabaPuHuiTiL') format('svg'); /* iOS 4.1- */
 }

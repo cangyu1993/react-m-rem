@@ -13,7 +13,7 @@ class login extends Component {
 
     state = {};
     componentDidMount = () => {
-        this.getIsCheck()
+        // this.getIsCheck()
     }
     getIsCheck = () => {
         axios.post('/IsCheckatMger.do').then(res => {
@@ -21,11 +21,21 @@ class login extends Component {
         }).catch(err => {
             console.log(err)
         })
+    };
+    //路由跳转
+    jumpToIndex = () => {
+        this.props.history.push('/microIndex')
     }
 
     render() {
         return (
-            <Link to='/microIndex' className='widthPage'></Link>
+            <div className='widthPage'>
+                <div className='positionBox' onClick={this.jumpToIndex}>
+                    <div className='register'>
+                        <p>REGISTER</p>
+                    </div>
+                </div>
+            </div>
         )
     }
 }
